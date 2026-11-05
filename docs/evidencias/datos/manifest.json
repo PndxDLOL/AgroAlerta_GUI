@@ -1,0 +1,67 @@
+{
+  "version_app": "2.0.0",
+  "fase_predictiva": "V1; Predicción V2 pendiente de investigación",
+  "generado": "2026-11-03T11:07:12.856203-05:00",
+  "entorno": {
+    "python": "3.12.14",
+    "streamlit": "1.66.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "plotly": "7.1.0"
+  },
+  "huella": "f228d5698e6248f207c1366c12ed0dfea55d5b3f014716ea4375c61013159407",
+  "fuentes": {
+    "base_mensual_V4.csv": "5995c4c16ac3a364bb7437c762d114bef985160ff4769fe2270161930926e7be",
+    "base_anual_V4.csv": "31b009d98a6fa0402eafee0aa93019fa24dfd6cc4f9e1b7ec2305b595074685d"
+  },
+  "resultados_fuente": {
+    "configuracion.json": "659f47ac4cf09f6604fa9776ff0a96e300d5f4674dc6853e2fb56ccf34095e41",
+    "predicciones_evaluadas.csv": "792748fa04c24c12ab87c06b276f54db3a9647ab1d82e720af2ef8c186394902",
+    "ranking_escala_completa_casos_comunes.csv": "0af36caad22f5d550e0a2c423bd65bf053febf8885f32f1088f1e203fdbbcca5"
+  },
+  "corte_datos": "2024-12-01",
+  "calibracion_fin": "2022-12-01",
+  "reglas": {
+    "q_high": 0.9,
+    "q_watch": 0.75,
+    "min_vols": 24,
+    "test_months": 24,
+    "annual_lag": 2,
+    "production_drop": -10,
+    "local_coverage_warning": 80
+  },
+  "calidad": {
+    "mensual": 936,
+    "anual": 78,
+    "precios_originales": 806,
+    "precios_imputados": 130,
+    "faltantes_mensuales": 130,
+    "faltantes_anuales": 28,
+    "celdas_base": 1950,
+    "faltantes_base": 158,
+    "porcentaje_global": 8.102564102564102,
+    "porcentaje_agricola": 10.661268556005398
+  },
+  "modelos_comparados": [
+    "ARIMA",
+    "Deriva",
+    "Holt amortiguado",
+    "Holt-Winters",
+    "Ingenuo",
+    "Ingenuo estacional",
+    "LSTM",
+    "MLP",
+    "Random Forest AR",
+    "Ridge AR",
+    "SARIMA",
+    "SES"
+  ],
+  "advertencias": [
+    "Evaluación retrospectiva exploratoria; los datos 2023–2024 ya habían sido consultados en el piloto.",
+    "Las etiquetas se obtienen de originales. La referencia de persistencia requiere un quinto precio original.",
+    "El rezago de publicación anual de dos años es un supuesto pendiente de verificar.",
+    "Los escenarios sintéticos prueban lógica y no se suman al desempeño en mercados reales."
+  ]
+}

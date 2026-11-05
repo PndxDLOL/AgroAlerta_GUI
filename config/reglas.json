@@ -1,0 +1,12 @@
+{
+  "reglas": {
+    "q_high": 0.90,
+    "q_watch": 0.75,
+    "min_vols": 24,
+    "test_months": 24,
+    "annual_lag": 2,
+    "production_drop": -10,
+    "local_coverage_warning": 80
+  },
+  "comparabilidad": {}
+}

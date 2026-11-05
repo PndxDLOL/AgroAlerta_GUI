@@ -1,0 +1,6 @@
+﻿caso,esperado,obtenido,tipo,cumple
+Llaves únicas mensual,True,True,Validación de datos,True
+Llaves únicas anual,True,True,Validación de datos,True
+Estabilidad,Sin señal estadística,Sin señal estadística,Prueba sintética de regla,True
+Choque +30 %,Volatilidad alta,Volatilidad alta,Prueba sintética de regla,True
+Corte de tres meses,No evaluable,No evaluable,Prueba sintética de regla,True
