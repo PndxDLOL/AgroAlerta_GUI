@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AgroAlerta · Piloto gráfico V2
 
 Aplicación Streamlit de Minería de Datos: precios agrícolas, producción, comercio, calidad y reglas
@@ -115,3 +116,6 @@ son trabajo futuro. Los escenarios desde 2025 parten del corte histórico 2024; 
 
 Equipo: Cristian Valdes Díaz, Miguel Angel Rendón Barrios y Juan David Rodríguez Leguizamón.
 Docente asesor: Jaime Andrés Gutierrez Monsalve.
+=======
+# AgroAlerta_GUI
+>>>>>>> b504235ad7456c4ace4a5b7afaddb3fc05a39b8b
